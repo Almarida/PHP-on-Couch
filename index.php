@@ -21,3 +21,8 @@ echo '
 </html>
 ';
 ?>
+
+
+$myCluster = new CouchbaseCluster('couchbase://10.4.4.1,10.4.4.2,10.4.4.3');
+$myCluster = new CouchbaseCluster();
+$myBucket = $myCluster->openBucket('default');
