@@ -26,4 +26,5 @@ echo '
 $myCluster = new CouchbaseCluster('couchbase://10.1.0.4');
 $myCluster = new CouchbaseCluster();
 $myBucket = $myCluster->openBucket('default');
+echo "I guess this code ran?"
 ?>
